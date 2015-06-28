@@ -27,7 +27,7 @@ gem "letsrate", :git => "git://github.com/iammyr/letsrate.git"
 gem 'carrierwave'
 gem 'mini_magick', '3.5.0'
 group :production do
-  gem 'sqlite3', '1.3.10'
+#  gem 'sqlite3', '1.3.10'
   gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.2'
         gem 'rhc'
