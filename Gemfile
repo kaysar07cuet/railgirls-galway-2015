@@ -24,6 +24,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem "letsrate", :git => "git://github.com/iammyr/letsrate.git"
+gem 'carrierwave'
+gem 'mini_magick', '3.5.0'
+group :production do
+        gem 'rhc'
+      end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
