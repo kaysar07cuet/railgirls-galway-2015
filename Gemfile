@@ -30,7 +30,7 @@ group :production do
 #  gem 'sqlite3', '1.3.10'
   gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.2'
-        gem 'rhc'
+        #gem 'rhc'
       end
 #gem 'heroku', "https://github.com/heroku/heroku.rb"
 
@@ -46,7 +46,7 @@ group :production do
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-
+  gem 'sqlite3', '1.3.9'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
