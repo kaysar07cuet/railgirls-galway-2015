@@ -27,8 +27,11 @@ gem "letsrate", :git => "git://github.com/iammyr/letsrate.git"
 gem 'carrierwave'
 gem 'mini_magick', '3.5.0'
 group :production do
+  gem 'pg', '0.17.1'
+  gem 'rails_12factor', '0.0.2'
         gem 'rhc'
       end
+#gem 'heroku', "https://github.com/heroku/heroku.rb"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
